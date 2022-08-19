@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fira Code';
+}
+
+/* estilizando a TAG SECTION como se fosse container */
+
+section {
+    width: auto;
+    height: 100vh;
+    
+}
+
+/* ------------------------------------ PERFIL ---------------------------------- */
+
+.perfil {
+    background: linear-gradient(#F40D0D, black 92%);
+    color: #ffffff;
+    align-items: center;
+}
+
+.perfil main {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 84px;
+    text-align: center;
+
+}
+
+/* Edição de texto */
+
+.perfil h1 {
+    font-weight: normal;
+    font-size: 30px;
+    margin-top: 38px;
+}
+
+.perfil h2 {
+    font-weight: normal;
+    font-size: 30px;
+    margin-top: 38px;
+}
+
+/* Edição das imagens */
+
+.perfil img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.perfil .seta {
+
+    width: 68px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    transform: rotate(0deg);
+}
+
+/* -------------------------------------- SOBRE MIM -------------------------------------- */
+
+.sobre_mim {
+    background: linear-gradient(black, #035BC1);
+
+}
+
+.sobre_mim main {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;    
+}
+
+/* Edição de Texto */
+
+.sobre_mim article {
+    width: 90vh;
+    margin-top: 220px;
+    margin-left: 110px;
+}
+
+.sobre_mim h2 {
+    font-size: 46px;
+    font-weight: normal;
+}
+
+.sobre_mim p {
+    margin-top: 40px;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 200;
+}
+
+/* Edição de imagens */
+
+.sobre_mim img {
+    width: 512px;
+    margin-left: 100px;
+    margin-top: 20vh;
+}
+
+/* ----------------------------------- HABILIDADES ------------------------------- */
+
+.habilidades{
+    background: linear-gradient(#035BC1,#78F2F2 );
+}
+
+.habilidades main {
+    display: flex;
+}
+
+.habilidades .logos {
+    height: 600px;
+    width: 650px;
+    display: flex;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+
+.habilidades img {
+    width: 300px;
+}
+
+.habilidades .html, .scrum, .css, .sql{
+    filter: saturate(0%) brightness(10%);
+}
+
+.habilidades h1 {
+    font-size: 40px;
+    margin-top: 211px;
+    margin-left: 100px;
+}
+
+.habilidades p {
+    width: 400px;
+    margin-top: 350px;
+    line-height: 50px;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+
+/* ---------------------------------- MEUS PROJETOS -------------------------------- */
+
+.projetos {
+    background: linear-gradient( #78F2F2 -40%,#924AEE);
+}
+
+.projetos h2 {
+    font-size: 55px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.projetos nav {
+    width: 1200px;
+    height: 310px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projetos a {
+    background-color: #035BC1;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 330px;
+    height: 330px;
+}
+
+.projetos .huddle {
+    background-color: #8A2BE2;
+    background-image: url(../imagens/Projetos/logo.svg);
+    background-size: 300px 330px;
+    background-repeat: no-repeat;
+}
+
+
+.projetos .embreve {
+    background-image: url(../imagens/Projetos/embreve.jpg);
+    filter: saturate(0);
+    image-resolution: cover;
+}
+
+
+/* ------------------------------- CURRÍCULO ----------------------------- */
+
+.curriculo {
+    background: linear-gradient(#924AEE -20%,#000000);
+    color: #FFFFFF;
+}
+
+.curriculo main nav {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #FFFFFF;
+    border-radius: 50px;
+    text-align: center;
+    width: 650px;
+    height: 100px;
+    font-size: 55px;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+
+.curriculo main a { 
+    margin-top: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+    height: 90px;
+    vertical-align: middle;
+}
+
+.curriculo main nav:hover {
+    background-color: #8A2BE2;
+    border: none;
+    box-shadow: 1px 1px 1em ;
+}
+
+.curriculo main p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.curriculo nav {
+    display: flex;
+}
+
+.curriculo footer nav {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.curriculo footer a {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.curriculo footer a:hover {
+    width: 120px;
+    height: 120px;
+    transition: .3s all;
+
+    box-shadow: 1px 1px 1em white;
+}
+
+
+.curriculo .facebook {
+    background-image: url(../imagens/Currículo/facebook.png);
+}
+
+.curriculo .whatsapp {
+    background-image: url(../imagens/Currículo/whatsapp.webp);
+}
+
+.curriculo .instagram {
+    background-image: url(../imagens/Currículo/instagram.webp);
+}
+
+.curriculo .github {
+    background-image: url(../imagens/Currículo/github.png);
+    border-radius: 25px;
+}
+
