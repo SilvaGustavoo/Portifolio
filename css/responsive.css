@@ -1,0 +1,421 @@
+@media screen and (max-width: 1370px) {
+    section {
+        height: 100vh;
+    }
+
+    .perfil main {
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        margin-top: 65px
+    }
+
+    .perfil img {
+        width: 225px;
+        height: 225px;
+    }
+
+    .perfil .seta {
+        margin-top:118px;
+
+    }
+
+/* --------- Sobre Mim ----*/
+
+    .sobre_mim img {
+        margin-top: 69px;
+        margin-left: 104px;
+    }
+
+    .sobre_mim article {
+        margin-top: 139px;
+        margin-left: 104px;
+        width: 70%;
+    }
+
+    .sobre_mim h2 {
+        font-size:40px;
+    }
+
+    .sobre_mim p { 
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+/* --------- Habilidades -----*/
+
+
+    .habilidades .logos {
+        width:auto;
+        margin-top: 0px;
+        margin-left: 120px;
+        height: 100vh;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .habilidades img {
+        width: 45%;
+    }
+
+    .habilidades h1 {
+        font-size: 35px;
+        margin-top: 201px;
+        margin-left: 101px;
+        font-weight: bold;
+    }
+
+    .habilidades p {
+        margin-left: 220px;
+        margin-top: 270px
+
+    }
+
+/* ------ Projetos ---------- */
+
+    .projetos h2 {
+        margin-top:62px;
+        font-size: 55px;
+    }
+
+    .projetos nav {
+        width: 1128px;
+        margin-top: 80px;
+    }
+
+    .projetos a {
+        width: 300px;
+        height: 300px;
+    }
+
+/* --------- Curriculo ------ */
+
+    .curriculo main nav {
+        margin-top: 200px;
+    }
+
+    .curriculo main p {
+        margin-top: 56px;
+    }
+
+    .curriculo footer nav {
+        margin-top: 55px;
+    }
+}
+
+/*------------- 1024 PIXELS OU MENOS -------------- */
+
+@media screen and (max-width: 1048px) {
+
+/* Perfil */
+
+    .perfil main {
+        margin-top: 40px;
+    }
+
+    .perfil h2 {
+        margin-top: 25px;
+    }
+
+    .perfil h1 {
+        margin-top: 35px;
+    }
+
+    .perfil .seta {
+        margin-top: 80px;
+    }
+
+    /* Sobre mim */
+
+    .sobre_mim main {
+        width:auto;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .sobre_mim figure {
+        margin-left: 50px;
+        width: 400px;
+    }
+
+    .sobre_mim img {
+        margin: auto;
+        width: 400px;
+
+    }
+
+    .sobre_mim article {
+        margin: auto;
+        margin-left: 70px;
+    }
+
+    .sobre_mim h2 {
+        font-size: 30px;
+    }
+
+    .sobre_mim p {
+        font-size: 16px;
+    }
+
+/* Habilidades */
+
+    .habilidades {
+        margin: auto;
+        font-size: 1px;
+    }
+
+    .habilidades .logos {
+        width:auto;
+        margin-top: 0px;
+        margin-left: 80px;
+        height: 100vh;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .habilidades figure {
+        width: 500px;
+        justify-content: space-around;
+    }
+
+    .habilidades img {
+        width: 200px;
+        justify-content: space-between;
+    }
+    .habilidades p {
+        width: 60%;
+        margin-top: 200px;
+        margin-left: 100px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .habilidades h1 {
+        margin-left: 20px;
+        font-size: 30px;
+    }
+
+/* ------- Projetos ------- */
+
+    .projetos nav {
+        width: 90%;
+    }
+
+    .projetos a {
+        width: 250px;
+        height: 250px;
+    }
+
+    .projetos .huddle {
+        background-size: auto;
+    }
+
+
+/*--------- Curriculo ------- */
+
+    .curriculo main nav {
+        margin-top: 120px;
+    }
+}
+
+/* ------------------------- 900 PIXELS OU MENOS ---------------------*/
+
+@media screen and (max-width: 900px) {
+
+/* Sobre mim */
+
+    .sobre_mim img {
+        width: 280px;
+    }
+
+    .sobre_mim h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .sobre_mim p {
+        min-width: 200px
+    }
+
+/* Habilidades */
+
+    .habilidades img {
+        width: 45%;
+    }
+
+    .habilidades figure {
+        width: 320px;
+    }
+
+    .habilidades h1 {
+        text-align: center;
+        min-width: 150px;
+    }
+
+/* Projetos */
+
+    .projetos nav a {
+        width: 180px;
+        height: 180px;
+    }
+
+    .projetos nav .huddle{
+        background-size: contain;
+    } 
+
+/* Curriculo */
+   
+    .curriculo main nav {
+        width: 500px;
+        height: 80px;
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+    }
+
+    .curriculo main nav a {
+        font-size: 38px;
+        height: auto;
+        margin: 0;
+    }
+
+    .curriculo main p {
+        margin-top: 35px;
+    }
+
+    .curriculo footer nav {
+        width: 450px;
+    }
+    .curriculo footer a {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+/* -------------------------------- 490 PIXELS OU MENOS --------------  */
+
+@media screen and (max-width: 490px) {
+
+/*  Perfil  */
+    .perfil main, footer {
+        width: auto;
+    }
+
+    .perfil main img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .perfil .seta {
+        margin-top: 200px
+    }
+
+    /* Sobre mim */
+
+    .sobre_mim main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .sobre_mim figure {
+        margin: 0;
+        margin-top: 50px
+    }
+
+    .sobre_mim img {
+        width: 270px;
+        margin: 0;
+    }
+
+    .sobre_mim main p {
+        text-align: justify;
+    }
+
+    /* Habilidades */
+    .habilidades main {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        text-align: center;
+    }
+    .habilidades .logos {
+        flex-direction: column;
+        height: fit-content;
+        margin-top: 50px;
+        margin-left:auto;
+        margin-right: auto;
+    }
+
+    .habilidades h1, p {
+        margin: 0;
+    }
+    .habilidades h1 {
+        margin-top: 80px
+    }
+    .habilidades p {
+        text-align: left;
+        font-size: 20px;
+    }
+
+/* Projetos */
+
+    .projetos h2 {
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+    .projetos nav {
+        flex-direction: column;
+        height: 70vh;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .projetos nav a {
+        margin: 0;
+        width: 70%;
+        height: 30%;
+        border-radius: 40% 0%
+    }
+
+/* Curricuo */
+
+    .curriculo main nav {
+        width: 90%;
+        font-size: 15px;
+        margin-top: 250px;
+    }
+
+    .curriculo main nav a {
+        font-size: 25px;
+    }
+
+    .curriculo footer nav {
+        width: 70%;
+        height: 270px;
+        flex-wrap: wrap;
+        justify-content: center;
+        line-height: 10px;
+    }
+
+    .curriculo footer nav a {
+        width: 100px;
+        height: 100px;
+        margin: 0
+    }
+
+    .curriculo .github,.curriculo .instagram {
+        margin-left: 20px;
+    }
+
+    
+}

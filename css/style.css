@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: 'Fira Code';
 }
@@ -197,7 +198,7 @@ section {
 
 .projetos .embreve {
     background-image: url(../imagens/Projetos/embreve.jpg);
-    filter: saturate(0);
+    filter: saturate(0); 
     image-resolution: cover;
 }
 
