@@ -138,13 +138,33 @@ section {
 
 .habilidades .html, .scrum, .css, .sql{
     filter: saturate(0%) brightness(10%);
+    cursor: pointer;
+}
+
+.habilidades .html:hover, .scrum:hover, .css:hover, .sql:hover{
+    filter: saturate(100%) brightness(100%);
+}
+
+.habilidades #article_sombra {
+    position: absolute;
+    top: 213vh;
+    right: 0;
+    height: 480px;
+    width: 600px;
+    background: #F40D0D;
+    background-attachment: fixed;
+    z-index: 0;
+    filter: blur(80px) opacity(0);
+    border-radius: 40%;
 }
 
 .habilidades h1 {
     font-size: 40px;
     margin-top: 211px;
     margin-left: 100px;
+    filter: blur(0px);
 }
+
 
 .habilidades p {
     width: 400px;
@@ -153,7 +173,59 @@ section {
     font-size: 25px;
     margin-left: auto;
     margin-right: 0px;
+    filter: blur(0px);
 }
+
+
+.habilidades #sql_sombra {
+    display: flex;
+    position: absolute;
+    top: 200vh;
+    left: 80px;
+    width: 300px;
+    height: 300px;
+    background-color: #FFFFFF;
+    filter: blur(90px) opacity(0);
+    border-radius: 50%;
+}
+
+.habilidades #html_sombra {
+    display: flex;
+    position: absolute;
+    top: 200vh;
+    left: 360px;
+    width: 350px;
+    height: 350px;
+    background-color: #E26620;
+    filter: blur(100px) opacity(0);
+    border-radius: 50%;
+}
+
+.habilidades #scrum_sombra {
+    display: flex;
+    position: absolute;
+    top: 255vh;
+    width: 300px;
+    height: 300px;
+    background-color: #78F2F2;
+    filter: blur(150px) opacity(0);
+    border-radius: 50%;
+}
+
+.habilidades #css_sombra {
+    display: flex;
+    position: absolute;
+    top: 260vh;
+    left: 380px;
+    width: 300px;
+    height: 300px;
+    background-color: #035BC1;
+    filter: blur(150px) opacity(0);
+    border-radius: 50%;
+}
+
+
+
 
 
 /* ---------------------------------- MEUS PROJETOS -------------------------------- */
@@ -288,4 +360,5 @@ section {
     background-image: url(../imagens/Currículo/github.png);
     border-radius: 25px;
 }
+
 
