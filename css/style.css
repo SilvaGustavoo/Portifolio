@@ -138,7 +138,9 @@ section {
 
 .habilidades .html, .scrum, .css, .sql{
     filter: saturate(0%) brightness(10%);
+    cursor: pointer;
 }
+
 
 .habilidades h1 {
     font-size: 40px;
@@ -187,6 +189,7 @@ section {
     width: 330px;
     height: 330px;
 }
+
 
 .projetos .huddle {
     background-color: #8A2BE2;
@@ -237,6 +240,7 @@ section {
     background-color: #8A2BE2;
     border: none;
     box-shadow: 1px 1px 1em ;
+    transition: .3s;
 }
 
 .curriculo main p {
