@@ -13,9 +13,17 @@ function sql(){
 
     document.getElementById("article").style="width: 900px;"
 
-    document.getElementById("html_sombra", "scrum_sombra", "css_sombra").style="filter: opacity(0);"
+    document.getElementById("html_sombra").style="filter: opacity(0);"
 
-    document.getElementById("html", "css", "scrum").style="filter:saturate(0%) brightness(10%);"
+    document.getElementById("scrum_sombra").style="filter: opacity(0);"
+
+    document.getElementById("css_sombra").style="filter: opacity(0);"
+
+    document.getElementById("html").style="filter:saturate(0%) brightness(10%);"
+
+    document.getElementById("scrum").style="filter:saturate(0%) brightness(10%);"
+
+    document.getElementById("css").style="filter:saturate(0%) brightness(10%);"
 
 }
 
@@ -36,9 +44,17 @@ function html() {
 
     document.getElementById("article").style="width: 900px; color: white;"
 
-    document.getElementById("sql_sombra", "scrum_sombra", "css_sombra").style="filter: opacity(0);"
+    document.getElementById("sql_sombra").style="filter: opacity(0);"
+
+    document.getElementById("css_sombra").style="filter: opacity(0);"
+
+    document.getElementById("scrum_sombra").style="filter: opacity(0);"
 
     document.getElementById("sql", "css", "scrum").style="filter:saturate(0%) brightness(10%);"
+
+    document.getElementById("css").style="filter:saturate(0%) brightness(10%);"
+
+    document.getElementById("scrum").style="filter:saturate(0%) brightness(10%);"
 
 }
 
@@ -49,6 +65,8 @@ function scrum() {
 
     document.getElementById("article_sombra").style="filter: opacity(1) blur(70px); background: #78F2F2";
 
+    document.getElementById("scrum").style="filter:saturate(100%) brightness(100%);";
+
     document.getElementById("tecnologia").innerText="Scrum";
 
     document.getElementById("description_tec").innerText="como realizar muito mais tarefas em menos tempo? Scrum me ensinou isso, aderir essa metodologia na vida profissional e pessoal é uma escolha da qual não tem volta!! Tenho conhecimentos tambem em Kanban e outras"
@@ -57,7 +75,46 @@ function scrum() {
 
     document.getElementById("article").style="width: 900px;"
 
-    document.getElementById("html_sombra", "sql_sombra", "css_sombra").style="filter: opacity(0);"
+    /* remover o fundo e a cor das outras tecnologias */
 
-    document.getElementById("html", "css", "sql").style="filter:saturate(0%) brightness(10%);"
+    document.getElementById("css_sombra").style="filter: opacity(0);";
+    document.getElementById("html_sombra").style="filter: opacity(0);";
+    document.getElementById("sql_sombra").style="filter: opacity(0);";
+
+    document.getElementById("css").style="filter:saturate(0%) brightness(10%);";
+
+    document.getElementById("sql").style="filter:saturate(0%) brightness(10%);";
+
+    document.getElementById("html").style="filter: brightness(10%) saturate(0%);";
+}
+
+
+function css() {
+    document.getElementById("css_sombra").style="filter: opacity(1) blur(50px)";
+
+    document.getElementById("habilidades").style="background: #002F64;"
+
+    document.getElementById("article_sombra").style="background: #035BC1; filter: opacity(1) blur(50px)";
+
+    document.getElementById("css").style="filter: brightness(100%) saturate(100%);"
+
+    document.getElementById("tecnologia").innerText="CSS";
+
+    document.getElementById("description_tec").innerText="Conhecimentos em estilização se estende em desenvolvimento de paginas responsivas e divertidas com auxilio aplicativos, como Figma ou Marvel."
+
+    document.getElementById("description_tec").style="    margin-top: 30px;margin-left: 100px;width: 400px;line-height: normal;font-size: 20px;"
+
+    document.getElementById("article").style="width: 900px; color: white;";
+
+    /* remover o fundo e a cor das outras tecnologias */
+
+    document.getElementById("scrum_sombra").style="filter: opacity(0);";
+    document.getElementById("html_sombra").style="filter: opacity(0);";
+    document.getElementById("sql_sombra").style="filter: opacity(0);";
+
+    document.getElementById("scrum").style="filter:saturate(0%) brightness(10%);";
+
+    document.getElementById("sql").style="filter:saturate(0%) brightness(10%);";
+
+    document.getElementById("html").style="filter: brightness(10%) saturate(0%);";
 }
