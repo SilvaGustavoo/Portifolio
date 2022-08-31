@@ -52,24 +52,28 @@
             <main> .
                 <div class="logos">
                     <figure>
-
-                        <img class="sql" src="imagens/Habilidades/sql.png" alt="SQL - Banco de Dados" title="SQL - Banco de Dados" onclick="sql()">
-
-                        <img class="html" src="imagens/Habilidades/html.png" alt="HTML - Logo" title="Linguagem de Marcação de HiperTexto - HTML" onclick="html()">
+                        <div id="sql_sombra"></div>
+                        <img id="sql" class="sql" src="imagens/Habilidades/sql.png" alt="SQL - Banco de Dados" title="SQL - Banco de Dados" onclick="sql()">
+                        
+                        <div id="html_sombra"></div>
+                        <img id="html" class="html" src="imagens/Habilidades/html.png" alt="HTML - Logo" title="Linguagem de Marcação de HiperTexto - HTML" onclick="html()">
                         <br>
 
-                        <img class="scrum" src="imagens/Habilidades/scrum.png" alt="Scrum - Logo" title="Scrum - Logo">
+                        <div id="scrum_sombra"></div>
+                        <img id="scrum" class="scrum" src="imagens/Habilidades/scrum.png" alt="Scrum - Logo" title="Scrum - Logo" onclick="scrum()">
 
-                        <img class="css" src="imagens/Habilidades/css.png" alt="CSS - Logo" title="Folhas de Estilo em Cascata - CSS">
+                        <div id="css_sombra"></div>
+                        <img id="css" class="css" src="imagens/Habilidades/css.png" alt="CSS - Logo" title="Folhas de Estilo em Cascata - CSS" onclick="css()">
                     </figure>
                 </div>
-
-                <article>
-
-                <h1>MINHAS HABILIDADES</h1>
-                <p>Realmente não quer matar a curiosidade?</p>
+                <div id="article_sombra"></div>
+                <article id="article">
                 
-                </article>        
+                <h1 id="tecnologia">MINHAS HABILIDADES</h1>
+                <p id="description_tec">Realmente não quer matar a curiosidade?</p>
+                
+                </article>
+                        
             </main>
         </section>
 
@@ -112,5 +116,6 @@
     </main>
 
     <script type="text/javascript" src="js/script.js" ></script>
+
 </body>
 </html>
