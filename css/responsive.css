@@ -129,9 +129,6 @@
 
 /* --------- Habilidades -----*/
 
-    .habilidades {
-        background: #fff;
-    }
 
 
     .habilidades .logos {
@@ -148,43 +145,48 @@
     }
 
     .habilidades h1 {
-        font-size: 35px;
+        font-size: 38px;
         margin-top: 201px;
-        margin-left: 0px;
+        margin-left: 40px;
         font-weight: bold;
     }
 
     .habilidades p {
-        width: 100%;
-        font-size: 18px;
+        width: 92%;
+        font-size: 20px;
         margin-left: auto;
         margin-right: 0px;
-        margin-top: 270px;
+        margin-top: 240px;
+        font-weight: 400;
     }
 
     .habilidades article {
-        margin-left: 90px;
+        margin-left: 60px;
         margin-right: 100px;
         width: 50%;
     }
 
     .habilidades #sql_sombra {
-        top: 213vh
+        top: 205vh;
+        width: 25%;
+        height: 50%;
     }
 
     .habilidades #html_sombra {
-        top: 213vh
+        top: 205vh;
+        width: 25%;
+        height: 50%;
     }
 
     .habilidades #css_sombra {
-        left: 310px;
-        top: 240vh;;
+        left: 330px;
+        top: 245vh;
     }
 
     .habilidades #article_sombra {
-        top: 230vh;
-        width: 500px;
-        height: 300px;
+        top: 215vh;
+        width: 600px;
+        height: 489px;
     }
 
 /* ------ Projetos ---------- */
@@ -277,6 +279,7 @@
     }
 
 /* Habilidades */
+
 
     .habilidades {
         margin: auto;
@@ -389,7 +392,7 @@
     }
 
     .sobre_mim p {
-        min-width: 200px
+        min-width: 200px;
     }
 
 /* Habilidades */
@@ -403,8 +406,38 @@
     }
 
     .habilidades h1 {
-        text-align: center;
+        text-align: left;
         min-width: 150px;
+    }
+
+    .habilidades article {
+        margin-left: 100px;
+    }
+
+    .habilidades p {
+        font-size: 16px;
+    }
+
+    .habilidades #sql_sombra {
+        left: 40px;
+    }
+
+    .habilidades #html_sombra {
+        left: 190px;
+        top: 219vh;
+    }
+
+    .habilidades #css_sombra {
+        left: 180px;
+    }
+
+    .habilidades #scrum_sombra {
+        left: 30px;
+    }
+
+    .habilidades #article_sombra {
+        top: 230vh;
+        width: 45%;
     }
 
 /* Projetos */
@@ -505,15 +538,48 @@
         margin-right: auto;
     }
 
+    .habilidades article {
+        margin: auto;
+        width: 80%;
+    }
+
     .habilidades h1, p {
         margin: 0;
     }
     .habilidades h1 {
-        margin-top: 80px
+        margin-top: 100px;
+        white-space: nowrap;
+        text-align: center;
     }
+
     .habilidades p {
-        text-align: left;
-        font-size: 20px;
+        text-align: justify;
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 400;
+    }
+
+    .habilidades #sql_sombra {
+        top: 203vh;
+        left: 30px;
+    }
+    .habilidades #html_sombra {
+        top: 203vh;
+        left: 160px;
+    }
+    .habilidades #css_sombra {
+        top: 220vh;
+        left: 160px;
+    }
+    .habilidades #scrum_sombra {
+        top: 220vh;
+        left: 30px;
+    }
+
+    .habilidades #article_sombra{
+        top: 250vh;
+        left: 30px;
+        width: 90%;
     }
 
 /* Projetos */
