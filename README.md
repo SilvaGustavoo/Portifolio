@@ -10,7 +10,7 @@ O projeto foi subdivididos em *Sections* e em cada uma delas com uma breve descr
 4. Projetos
 5. Currículo
 
-na grande maioria só é descrito uma breve descrição em exceção da **Section Habilidades**. Nela foi inserido alguns scripts de JS para uma interação com o usuário, so irei dizer até aqui para nao estragar a surpresa. Acesse e fique a vontade para criticar-me, espero que goste!!<br>
+Na grande maioria só é descrito uma breve descrição em exceção da **Section Habilidades**. Nela foi inserido alguns scripts de JS para uma interação com o usuário, so irei dizer até aqui para nao estragar a surpresa. Acesse e fique a vontade para criticar-me, espero que goste!!<br>
 Com relação ao JavaScript, fiz o uso para alterar algumas informações de estilo ao longo da página para que recebessem: posições, cores e formatações de divs ou textos. e dentro usei um media screen com a ideia de que apartir de um certo ponto ter o direito de alterar o *line-height* da tag.
 
 ## Formatação
